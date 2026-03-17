@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌻 Para Vanessa 🌻</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Nubes tiernas -->
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+    
+<!-- Flores flotantes - más grandes y con animación de crecimiento -->
+<div class="floating-flower" style="top: 15%; left: 3%;">🌻</div>
+<div class="floating-flower" style="top: 30%; right: 5%;">🌻</div>
+<div class="floating-flower" style="bottom: 20%; left: 8%;">🌻</div>
+<div class="floating-flower" style="bottom: 40%; right: 8%;">🌻</div>
+<div class="floating-flower" style="top: 45%; left: 12%;">🌼</div>
+<div class="floating-flower" style="bottom: 15%; right: 12%;">🌸</div>
+<div class="floating-flower" style="top: 60%; left: 20%;">🌷</div>
+<div class="floating-flower" style="bottom: 30%; left: 25%;">🌺</div>
+    
+    <div class="container ramo-container">
+        <!-- Mensaje principal -->
+        <div class="row justify-content-center">
+            <div class="col-12 mensaje-principal">
+                <h1 class="para-ti">Para ti,</h1>
+                <h2 class="vanessa">Vanessa</h2>
+                <div class="fecha">🌻 Este 21 de Marzo - Día de las Flores Amarillas, - Quiero darte flores amarillas y cerditos virtuales 🌻</div>
+            </div>
+        </div>
+        <!-- Elemento de audio (oculto) -->
+<audio id="cancion-vanessa" loop preload="auto">
+    <source src="Music\Flores Amarillas - Floricienta - High Quality.mp3" type="audio/mpeg">
+    <!-- Si tienes otro formato, agrégalo aquí -->
+</audio>
+
+<!-- Botón de música súper cute -->
+<div class="text-center my-4">
+    <button id="boton-musica-cute" class="btn-musica-cute" onclick="toggleMusica()">
+        <span class="nota-musical" id="nota-icono">🎵</span>
+        <span id="texto-musica-cute">Reproducir canción para Vanessa</span>
+    </button>
+</div>
+        <!-- Ramo de flores amarillas -->
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="ramo">
+                    <div class="tallos-decorativos"></div>
+                    
+                    <!-- Flor 1 -->
+                    <div class="flor">
+                        <div class="flor-cabeza">
+                            <div class="petalo petalo1"></div>
+                            <div class="petalo petalo2"></div>
+                            <div class="petalo petalo3"></div>
+                            <div class="petalo petalo4"></div>
+                            <div class="petalo petalo5"></div>
+                            <div class="petalo petalo6"></div>
+                            <div class="centro-flor"></div>
+                        </div>
+                        <div class="tallo">
+                            <div class="hoja"></div>
+                            <div class="hoja2"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flor 2 -->
+                    <div class="flor">
+                        <div class="flor-cabeza">
+                            <div class="petalo petalo1"></div>
+                            <div class="petalo petalo2"></div>
+                            <div class="petalo petalo3"></div>
+                            <div class="petalo petalo4"></div>
+                            <div class="petalo petalo5"></div>
+                            <div class="petalo petalo6"></div>
+                            <div class="centro-flor"></div>
+                        </div>
+                        <div class="tallo">
+                            <div class="hoja"></div>
+                            <div class="hoja2"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flor 3 (más grande, la del medio) -->
+                    <div class="flor flor-central">
+                        <div class="flor-cabeza">
+                            <div class="petalo petalo1"></div>
+                            <div class="petalo petalo2"></div>
+                            <div class="petalo petalo3"></div>
+                            <div class="petalo petalo4"></div>
+                            <div class="petalo petalo5"></div>
+                            <div class="petalo petalo6"></div>
+                            <div class="centro-flor"></div>
+                        </div>
+                        <div class="tallo">
+                            <div class="hoja"></div>
+                            <div class="hoja2"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flor 4 -->
+                    <div class="flor">
+                        <div class="flor-cabeza">
+                            <div class="petalo petalo1"></div>
+                            <div class="petalo petalo2"></div>
+                            <div class="petalo petalo3"></div>
+                            <div class="petalo petalo4"></div>
+                            <div class="petalo petalo5"></div>
+                            <div class="petalo petalo6"></div>
+                            <div class="centro-flor"></div>
+                        </div>
+                        <div class="tallo">
+                            <div class="hoja"></div>
+                            <div class="hoja2"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flor 5 -->
+                    <div class="flor">
+                        <div class="flor-cabeza">
+                            <div class="petalo petalo1"></div>
+                            <div class="petalo petalo2"></div>
+                            <div class="petalo petalo3"></div>
+                            <div class="petalo petalo4"></div>
+                            <div class="petalo petalo5"></div>
+                            <div class="petalo petalo6"></div>
+                            <div class="centro-flor"></div>
+                        </div>
+                        <div class="tallo">
+                            <div class="hoja"></div>
+                            <div class="hoja2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Cerditos (3 cerditos adorables) -->
+        <div class="row justify-content-center cerditos-section">
+            <div class="col-md-4 col-6 mb-4">
+                <div class="cerdito-card text-center">
+                    <div class="cerdito">🐖</div>
+                    <div class="cerdito-nombre">Pipin</div>
+                    <div class="cerdito-mensaje">Es juguetón y le gusta el barro</div>
+                </div>
+            </div>
+            <div class="col-md-4 col-6 mb-4">
+                <div class="cerdito-card text-center">
+                    <div class="cerdito">🐖</div>
+                    <div class="cerdito-nombre">Canela</div>
+                    <div class="cerdito-mensaje">Es tranquila, pero le gusta comer mucho como Shami</div>
+                </div>
+            </div>
+            <div class="col-md-4 col-6 mb-4">
+                <div class="cerdito-card text-center">
+                    <div class="cerdito">🐖</div>
+                    <div class="cerdito-nombre">Ratilla</div>
+                    <div class="cerdito-mensaje">El primer cerdito que te di, es para que lo recuerdes 😘 </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tarjeta con mensaje -->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="tarjeta">
+                    <div class="corazones text-center">🌻 🌼 🌻 🌼 🌻</div>
+                    <p class="mensaje-tarjeta">
+                        <span class="vanessa-name">Vane</span>, cosita bella 💕<br><br>
+                        Hoy 21 de marzo te regalo estas <strong>flores amarillas</strong> 
+                        porque quiero enseñarte que esa es la misma luz que das en mi vida y la de tus seres queridos, 
+                        agradezco tu abracitos y todo lo que haces por mi por medio de esta carta virtual.<br><br>
+                        Y también te regalo estos <strong>tres chanchitos para que los tengas siempre en un espacio en internet</strong> 
+                        porque sé que te encantan, y porque quiero que tengas muchos cerditos en tu vida. ✨🐷✨<br><br>
+                        <strong class="te-amo-grande">Te amo  y gracias por se la mejor esposa.</strong><br>
+                        <span class="mas-que-flores">💛 Te regalo flores este 21 de marzo y mucho amor 💛</span>
+                    </p>
+                    <div class="corazones text-center">🌻 🌼 🌻 🌼 🌻</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Botón sorpresa -->
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <button class="btn-magic" onclick="mostrarSorpresa()">
+                    <span class="btn-icon">🐷</span> Haz clic para tu sorpresa <span class="btn-icon">🌸</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
